@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.4/.schema/devbox.schema.json",
+  "packages": [
+    "kind@0.22.0",
+    "krew@0.4.4"
+  ],
+  "shell": {
+    "init_hook": [
+      "krew install ctx"
+    ],
+    "scripts":   {}
+  }
+}
