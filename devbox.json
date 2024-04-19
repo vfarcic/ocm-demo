@@ -6,7 +6,8 @@
   ],
   "shell": {
     "init_hook": [
-      "krew install ctx"
+      "krew install ctx",
+      "PS1=\"➜ \""
     ],
     "scripts":   {}
   }
